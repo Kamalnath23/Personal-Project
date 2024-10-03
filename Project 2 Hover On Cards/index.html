@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax depth cards</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+</head>
+<body>
+    <h1 class="title">Hover On Cards</h1>
+    <div id="app" class="container">
+        <card data-image="Images/Canyon.jpg">
+            <h1 slot="header">Canyons</h1>
+            <p slot="content">A canyon is a deep cleft between escarpments or cliffs resulting from weathering and the erosive activity of a river over geologic time scales</p>
+        </card>
+        <card data-image="Images/Beach.jpg">
+            <h1 slot="header">Beaches</h1>
+            <p slot="content">A beach is a landform alongside a body of water which consists of loose particles.</p> 
+        </card>
+        <card data-image="Images/Lake.jpg">
+            <h1 slot="header">Lakes</h1>
+            <p slot="content">A lake is an often naturally occurring, relatively large and fixed body of water on or near the Earth's surface. It is localized in a basin or interconnected basins surrounded by dry land.</p>
+        </card>
+        <card data-image="Images/Valley.jpg">
+            <h1 slot="header">Valley</h1>
+            <p slot="content">A valley is an elongated low area often running between hills or mountains and typically containing a river or stream running from one end to the other.</p>
+        </card>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
